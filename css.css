@@ -1,0 +1,75 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding:08px 12px;
+    
+}
+
+header {
+    background-color: black;
+    padding:08px 12px;
+}
+
+header ul{
+    display:flex;
+    margin-left: 10px;
+    align-items: center;
+    list-style: none;
+    padding:10px;   
+}
+
+
+.imagem{
+    width: 300px;
+}
+header li {
+    margin-left: 70px;
+}
+
+.botao{
+    color:white;
+    font-family:Arial;
+}
+
+
+
+
+
+header li a:hover{
+    color:rgba(230, 0, 0);
+    transition:200ms;
+}
+
+
+
+
+section {
+    width:100%;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Fundo.jpg");
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+section h1{
+    color:white;
+    font-family: Arial;
+}
+
+section ul{
+    list-style: none;
+}
+
+section li{
+    padding-left: 70px;
+}
